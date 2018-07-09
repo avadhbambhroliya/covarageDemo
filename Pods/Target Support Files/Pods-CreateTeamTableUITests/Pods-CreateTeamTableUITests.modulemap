@@ -1,0 +1,6 @@
+framework module Pods_CreateTeamTableUITests {
+  umbrella header "Pods-CreateTeamTableUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
