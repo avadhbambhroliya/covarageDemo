@@ -1,3 +1,7 @@
-osx_image: xcode9.4
-service_name: travis-pro
-repo_token: Va5zrKZTkE2PyUWbbWZSQeYOXYTxiA8gM
+"os": "",
+"dist": "trusty",
+"group": "stable",
+"language": "swift",
+"osx_image": "xcode9.4",
+"repo_token": "Va5zrKZTkE2PyUWbbWZSQeYOXYTxiA8gM",
+"service_name": "travis-pro"
