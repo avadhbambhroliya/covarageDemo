@@ -1,4 +1,2 @@
-"language": "swift",
-"osx_image": "xcode9.4",
-"repo_token": "Va5zrKZTkE2PyUWbbWZSQeYOXYTxiA8gM",
-"service_name": "travis-pro"
+service_name: travis-pro
+repo_token: Va5zrKZTkE2PyUWbbWZSQeYOXYTxiA8gM
