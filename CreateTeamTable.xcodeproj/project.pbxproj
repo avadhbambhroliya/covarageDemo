@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1771935AA13C2535F0A40D66 /* Pods_CreateTeamTableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1A83D7ACEDA35FC6530E0B /* Pods_CreateTeamTableTests.framework */; };
 		23CC962AD4226A6FAA9C52BB /* Pods_CreateTeamTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5448541FAA19845BE16B25F2 /* Pods_CreateTeamTable.framework */; };
-		993BCD1020F4872500243406 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993BCD0F20F4872500243406 /* SnapshotHelper.swift */; };
 		995CCA0D20D77C870034C1EB /* RowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995CCA0B20D77C870034C1EB /* RowTableViewCell.swift */; };
 		995CCA0E20D77C870034C1EB /* RowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995CCA0C20D77C870034C1EB /* RowTableViewCell.xib */; };
 		995CCA1220D77D6F0034C1EB /* CreateTeamHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995CCA1120D77D6F0034C1EB /* CreateTeamHeaderView.xib */; };
@@ -50,7 +49,6 @@
 		5448541FAA19845BE16B25F2 /* Pods_CreateTeamTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreateTeamTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1A83D7ACEDA35FC6530E0B /* Pods_CreateTeamTableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreateTeamTableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88353B0E527D86E1DDE96EE7 /* Pods-CreateTeamTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreateTeamTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreateTeamTable/Pods-CreateTeamTable.release.xcconfig"; sourceTree = "<group>"; };
-		993BCD0F20F4872500243406 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		995CCA0B20D77C870034C1EB /* RowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTableViewCell.swift; sourceTree = "<group>"; };
 		995CCA0C20D77C870034C1EB /* RowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RowTableViewCell.xib; sourceTree = "<group>"; };
 		995CCA1120D77D6F0034C1EB /* CreateTeamHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateTeamHeaderView.xib; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				99A731D920D61C7F00A767B7 /* CreateTeamTableUITests.swift */,
-				993BCD0F20F4872500243406 /* SnapshotHelper.swift */,
 				99A731DB20D61C7F00A767B7 /* Info.plist */,
 			);
 			path = CreateTeamTableUITests;
@@ -393,7 +390,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				99A731DA20D61C7F00A767B7 /* CreateTeamTableUITests.swift in Sources */,
-				993BCD1020F4872500243406 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
