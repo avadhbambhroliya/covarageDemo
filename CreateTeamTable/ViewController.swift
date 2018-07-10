@@ -61,11 +61,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 100
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
- 
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let array = mainarray[section] as! [String:Any]
         let row = array["section"] as! [String:Any]

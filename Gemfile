@@ -24,3 +24,5 @@ gem 'thin',  '~>1.1'
 gem 'rack-cache', :require => 'rack/cache'
 
 gem 'sqlite3'
+
+gem "fastlane"
