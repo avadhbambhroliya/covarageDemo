@@ -1,0 +1,5 @@
+export BUILT_PRODUCTS_DIR="/Users/iblinfotech/Library/Developer/Xcode/DerivedData/CreateTeamTable-hauqtjywtlibhbeqsuvipfeombug/Build/Products/Debug-iphonesimulator"
+export CURRENT_ARCH="x86_64"
+export OBJECT_FILE_DIR_normal="/Users/iblinfotech/Library/Developer/Xcode/DerivedData/CreateTeamTable-hauqtjywtlibhbeqsuvipfeombug/Build/Intermediates.noindex/CreateTeamTable.build/Debug-iphonesimulator/CreateTeamTable.build/Objects-normal"
+export OBJROOT="/Users/iblinfotech/Library/Developer/Xcode/DerivedData/CreateTeamTable-hauqtjywtlibhbeqsuvipfeombug/Build/Intermediates.noindex"
+export SRCROOT="/Volumes/Data Backup/Code covarage Demo/covarageDemo"

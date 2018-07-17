@@ -6,14 +6,18 @@ target 'CreateTeamTable' do
   use_frameworks!
 
   # Pods for CreateTeamTable
-
+  pod 'Alamofire'
+  pod 'XcodeCoverage', '~>1.0'
+  
   target 'CreateTeamTableTests' do
     inherit! :search_paths
+    pod 'Alamofire'
     # Pods for testing
   end
 
   target 'CreateTeamTableUITests' do
     inherit! :search_paths
+    pod 'Alamofire'
     # Pods for testing
   end
 

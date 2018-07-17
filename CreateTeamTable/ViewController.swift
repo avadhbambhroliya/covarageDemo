@@ -65,7 +65,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let array = mainarray[section] as! [String:Any]
         let row = array["section"] as! [String:Any]
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: "CreateTeamHeaderView") as! CreateTeamHeaderView
-        headerView.txtName.text = row["teamNAme"] as! String
+        headerView.txtName.text = row["teamNAme"] as? String
         return headerView
     }
 

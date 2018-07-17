@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1771935AA13C2535F0A40D66 /* Pods_CreateTeamTableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1A83D7ACEDA35FC6530E0B /* Pods_CreateTeamTableTests.framework */; };
 		23CC962AD4226A6FAA9C52BB /* Pods_CreateTeamTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5448541FAA19845BE16B25F2 /* Pods_CreateTeamTable.framework */; };
+		9948815120FD9E2C0017A35A /* Pods_CreateTeamTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9948815020FD9E2C0017A35A /* Pods_CreateTeamTable.framework */; };
+		9948815320FD9E390017A35A /* Pods_CreateTeamTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9948815220FD9E390017A35A /* Pods_CreateTeamTable.framework */; };
 		995CCA0D20D77C870034C1EB /* RowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995CCA0B20D77C870034C1EB /* RowTableViewCell.swift */; };
 		995CCA0E20D77C870034C1EB /* RowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995CCA0C20D77C870034C1EB /* RowTableViewCell.xib */; };
 		995CCA1220D77D6F0034C1EB /* CreateTeamHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995CCA1120D77D6F0034C1EB /* CreateTeamHeaderView.xib */; };
@@ -20,7 +21,6 @@
 		99A731C420D61C7E00A767B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A731C220D61C7E00A767B7 /* LaunchScreen.storyboard */; };
 		99A731CF20D61C7F00A767B7 /* CreateTeamTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A731CE20D61C7F00A767B7 /* CreateTeamTableTests.swift */; };
 		99A731DA20D61C7F00A767B7 /* CreateTeamTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A731D920D61C7F00A767B7 /* CreateTeamTableUITests.swift */; };
-		F499342D462C0E08451BF834 /* Pods_CreateTeamTableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BCBDD2F620772FFE8232E9 /* Pods_CreateTeamTableUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +49,9 @@
 		5448541FAA19845BE16B25F2 /* Pods_CreateTeamTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreateTeamTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1A83D7ACEDA35FC6530E0B /* Pods_CreateTeamTableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreateTeamTableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88353B0E527D86E1DDE96EE7 /* Pods-CreateTeamTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreateTeamTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreateTeamTable/Pods-CreateTeamTable.release.xcconfig"; sourceTree = "<group>"; };
+		9948815020FD9E2C0017A35A /* Pods_CreateTeamTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CreateTeamTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9948815220FD9E390017A35A /* Pods_CreateTeamTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CreateTeamTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9948815520FD9F060017A35A /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		995CCA0B20D77C870034C1EB /* RowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTableViewCell.swift; sourceTree = "<group>"; };
 		995CCA0C20D77C870034C1EB /* RowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RowTableViewCell.xib; sourceTree = "<group>"; };
 		995CCA1120D77D6F0034C1EB /* CreateTeamHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateTeamHeaderView.xib; sourceTree = "<group>"; };
@@ -82,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1771935AA13C2535F0A40D66 /* Pods_CreateTeamTableTests.framework in Frameworks */,
+				9948815120FD9E2C0017A35A /* Pods_CreateTeamTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F499342D462C0E08451BF834 /* Pods_CreateTeamTableUITests.framework in Frameworks */,
+				9948815320FD9E390017A35A /* Pods_CreateTeamTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +116,8 @@
 		7E1B60FA3402A8C9B5C5E891 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9948815220FD9E390017A35A /* Pods_CreateTeamTable.framework */,
+				9948815020FD9E2C0017A35A /* Pods_CreateTeamTable.framework */,
 				5448541FAA19845BE16B25F2 /* Pods_CreateTeamTable.framework */,
 				7D1A83D7ACEDA35FC6530E0B /* Pods_CreateTeamTableTests.framework */,
 				27BCBDD2F620772FFE8232E9 /* Pods_CreateTeamTableUITests.framework */,
@@ -123,6 +128,7 @@
 		99A731AD20D61C7E00A767B7 = {
 			isa = PBXGroup;
 			children = (
+				9948815520FD9F060017A35A /* Header.h */,
 				99A731B820D61C7E00A767B7 /* CreateTeamTable */,
 				99A731CD20D61C7F00A767B7 /* CreateTeamTableTests */,
 				99A731D820D61C7F00A767B7 /* CreateTeamTableUITests */,
@@ -188,6 +194,8 @@
 				99A731B220D61C7E00A767B7 /* Sources */,
 				99A731B320D61C7E00A767B7 /* Frameworks */,
 				99A731B420D61C7E00A767B7 /* Resources */,
+				BAD613035BC408CD0B597F96 /* [CP] Embed Pods Frameworks */,
+				9948815420FD9E630017A35A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -206,6 +214,7 @@
 				99A731C620D61C7F00A767B7 /* Sources */,
 				99A731C720D61C7F00A767B7 /* Frameworks */,
 				99A731C820D61C7F00A767B7 /* Resources */,
+				FA79B8C7EB6A9334C6EF5791 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,6 +234,7 @@
 				99A731D120D61C7F00A767B7 /* Sources */,
 				99A731D220D61C7F00A767B7 /* Frameworks */,
 				99A731D320D61C7F00A767B7 /* Resources */,
+				E0209FBE643D94994A9BDC85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -327,6 +337,19 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9948815420FD9E630017A35A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = Pods/XcodeCoverage/exportenv.sh;
+		};
 		B07EE25074F1B0A078EEE64B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,6 +368,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BAD613035BC408CD0B597F96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CreateTeamTable/Pods-CreateTeamTable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CreateTeamTable/Pods-CreateTeamTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0209FBE643D94994A9BDC85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CreateTeamTableUITests/Pods-CreateTeamTableUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CreateTeamTableUITests/Pods-CreateTeamTableUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F6283D0019822E2F3BB1635A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +420,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA79B8C7EB6A9334C6EF5791 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CreateTeamTableTests/Pods-CreateTeamTableTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CreateTeamTableTests/Pods-CreateTeamTableTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -557,6 +634,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/Data Backup/Code covarage Demo/covarageDemo/Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -577,6 +655,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/Data Backup/Code covarage Demo/covarageDemo/Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -589,6 +668,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ENF3N4MGJ;
 				INFOPLIST_FILE = CreateTeamTableTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -610,6 +690,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ENF3N4MGJ;
 				INFOPLIST_FILE = CreateTeamTableTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -630,7 +711,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7ENF3N4MGJ;
 				INFOPLIST_FILE = CreateTeamTableUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -651,7 +732,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7ENF3N4MGJ;
 				INFOPLIST_FILE = CreateTeamTableUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

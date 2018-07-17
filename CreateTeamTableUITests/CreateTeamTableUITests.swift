@@ -9,7 +9,7 @@
 import XCTest
 
 class CreateTeamTableUITests: XCTestCase {
-        
+    
     override func setUp() {
         super.setUp()
         let app = XCUIApplication()
