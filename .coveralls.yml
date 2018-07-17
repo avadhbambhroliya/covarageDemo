@@ -1,2 +1,5 @@
 service_name: travis-pro
 repo_token: KVtyUZulr3IkxXg6K7qrCy1EBjXsYLlIZ
+language: swift
+xcode_project: CreateTeamTable.xcodeproj
+xcode_scheme: CreateTeamTable
